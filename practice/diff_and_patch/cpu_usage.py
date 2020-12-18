@@ -10,4 +10,3 @@ if not check_cpu_usage(75):
     print("ERROR! CPU is overloaded")
 else:
     print("Everything ok")
-
