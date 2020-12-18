@@ -2,8 +2,9 @@
 
 import psutil
 
-def check_cpu_usage(percent):s
-    usage = pustil.cpu_precent()
+def check_cpu_usage(percent):
+    usage = pustil.cpu_precent(1)
+    print("DEBUG: usage: {}".format(usage))
     return usage < percent
 if not check_cpu_usage(75):
     print("ERROR! CPU is overloaded")

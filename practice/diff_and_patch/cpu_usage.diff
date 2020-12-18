@@ -1,0 +1,8 @@
+6c6,7
+<     usage = pustil.cpu_precent()
+---
+>     usage = pustil.cpu_precent(1)
+>     print("DEBUG: usage: {}".format(usage))
+8,9d8
+< 
+<     
