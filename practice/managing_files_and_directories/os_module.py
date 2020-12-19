@@ -5,6 +5,6 @@ from os import *
 print(path.abspath('thistoremove.txt'))
 
 print(getcwd())
-mkdir("test.txt")
+mkdir("test_dir")
 chdir("../")
 print(getcwd())
