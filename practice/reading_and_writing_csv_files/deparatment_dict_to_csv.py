@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import csv
-#users data hardcoded
 users = [{"name": "Sol Mansi","username":"solm","department":"IT infrastructure"},
 {"name": "Lio Nelson","username":"lion","department":"User Experience Resreach"},
 {"name": "Charlie Gray","username":"greyc","department":"Development"}]
