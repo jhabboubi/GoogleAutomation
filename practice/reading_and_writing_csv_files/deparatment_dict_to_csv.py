@@ -11,4 +11,3 @@ with open('by_department.csv', 'w') as by_department:
     writer.writeheader()
     writer.writerows(users)
     #local change 
-    
